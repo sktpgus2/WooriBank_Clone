@@ -1,0 +1,458 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  height: 60px;
+}
+
+header .index {
+  display: flex;
+  align-items: center;
+}
+
+header .index .login {
+  width: 80px;
+  height: 30px;
+  background-color: #2980b9;
+  color: white;
+  margin-left: 16px;
+  margin-right: 6px;
+}
+
+header .index .login i {
+  margin-right: 4px;
+}
+
+header .index .center {
+  width: 136px;
+  height: 30px;
+}
+
+header .index .center i {
+  margin-right: 4px;
+}
+
+header .navbar_menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .navbar_menu ul li {
+  padding: 12px 14px;
+}
+
+header .navbar_menu2 ul {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 48px;
+  align-items: center;
+}
+
+header .navbar_menu2 ul li {
+  padding: 12px 8px;
+}
+
+.mainImage {
+  height: 535px;
+}
+
+.mainBanner {
+  width: 100%;
+  height: 535px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #ccf2ff;
+}
+
+.mid_menu {
+  position: relative;
+  top: -104px;
+  width: 764px;
+  height: 76px;
+  margin: 0 auto;
+}
+
+.mid_menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 76px;
+}
+
+.mid_menu ul li {
+  width: 25%;
+  height: 100%;
+}
+
+.mid_menu li:nth-child(1) {
+  border-radius: 60px 0 0 60px;
+  background-color: #3a8dfd;
+}
+
+.mid_menu li:nth-child(2),
+.mid_menu li:nth-child(3) {
+  background-color: #3a8dfd;
+  border-left: 1px solid white;
+  border-style: ;
+}
+
+.mid_menu li:nth-child(4) {
+  border-radius: 0 60px 60px 0;
+  background-color: white;
+}
+
+.mid_menu ul li a {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 26px 0;
+}
+
+.mid_menu2 {
+  display: flex;
+  justify-content: center;
+  margin-top: -84px;
+}
+
+.mid_menu2 span {
+  padding: 12px 8px;
+  color: gray;
+  font-weight: bold;
+}
+
+.financeProduct {
+  margin: 0 auto;
+  width: 70%;
+  height: 60px;
+}
+
+.financeProduct > div {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.financeProduct ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.financeProduct ul li {
+  width: 100%;
+}
+
+.financeProduct ul li button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3a8dfd;
+  margin: 12px 2px;
+  border-radius: 50%;
+  width: 102px;
+  height: 102px;
+}
+
+.financeProduct ul li button span {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.service {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.service > div {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.service ul {
+  display: flex;
+  width: 70%;
+}
+
+.service ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  margin-right: 48px;
+}
+
+.service ul li:last-child {
+  margin-right: 0;
+}
+
+.service ul li img {
+  width: 304px;
+  height: 200px;
+}
+
+.service ul li span {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.service ul li .serviceListTitle {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.service ul li .serviceListContent {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.board {
+  background-color: #f4f7fa;
+  width: 100%;
+  height: 240px;
+  margin: 60px 0 20px 0;
+  display: flex;
+  height: 180px;
+}
+
+.board div {
+  margin: 0 auto;
+}
+
+.board .news {
+  display: flex;
+  margin-right: 30px;
+}
+
+.board .news1 {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 10px 0 0;
+  width: 70px;
+}
+
+.board .news1 > span {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 12px 8px;
+}
+
+.board .news1 .moreNews1 {
+  display: flex;
+}
+
+.board .news1 .moreNews1 {
+  font-size: 12px;
+  color: gray;
+}
+
+.board .news1 .moreNews1 a {
+  margin-right: 6px;
+}
+
+.board .news1 .moreNews1 span {
+  margin-right: 3px;
+}
+
+.board .news2 {
+  margin-top: 40px;
+}
+
+.board .news2 p {
+  width: 300px;
+  padding: 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 40px;
+}
+
+.board .news2 li {
+  display: flex;
+  align-items: center;
+  height: 29.6px;
+}
+
+.board .news2 li span {
+  font-size: 12px;
+  color: gray;
+}
+
+/* 이벤트 부분 */
+
+.board .event {
+  display: flex;
+  margin-left: 30px;
+}
+
+.board .event1 {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 10px 0 0;
+  width: 70px;
+}
+
+.board .event1 > span {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 12px 8px;
+}
+
+.board .event1 .moreEvent1 {
+  display: flex;
+}
+
+.board .event1 .moreEvent1 {
+  font-size: 12px;
+  color: gray;
+}
+
+.board .event1 .moreEvent1 a {
+  margin-right: 6px;
+}
+
+.board .event1 .moreEvent1 span {
+  margin-right: 3px;
+}
+
+.board .event2 {
+  margin-top: 40px;
+}
+
+.board .event2 p {
+  width: 300px;
+  padding: 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.board .event2 li {
+  display: flex;
+  align-items: center;
+  height: 29.6px;
+}
+
+.board .event2 li span {
+  font-size: 12px;
+  color: gray;
+}
+
+footer .footerMenu1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f4f7fa;
+  border-top: 2px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+footer .footerMenu1 ul {
+  display: flex;
+  padding: 10px 6px;
+  margin-left: 60px;
+}
+
+footer .footerMenu1 ul li {
+  margin: 0 36px 0;
+  font-size: 12px;
+}
+
+footer .footerMenu1 ul li .footerMenu1Bold {
+  font-weight: 700;
+}
+
+footer .footerMenu1 ul li span {
+  margin-right: 4px;
+}
+
+footer .footerMenu1 ul li button {
+  background-color: #3a8dfd;
+  width: 12px;
+  height: 12px;
+  font-size: 4px;
+  border-radius: 50%;
+}
+
+footer .footerMenu1 ul li button i {
+  color: white;
+  font-size: 4px;
+}
+
+footer .footerMenu2 {
+  display: flex;
+  margin: 12px 8px;
+  width: 100%;
+  align-items: center;
+}
+
+footer .footerMenu2 .wooriIcon {
+  margin-left: 300px;
+  margin-right: 40px;
+}
+
+footer .footerMenu2 .footerMenu2List {
+  margin-right: 172px;
+}
+
+footer .footerMenu2 .footerMenu2List span {
+  font-size: 12px;
+  color: gray;
+  border-right: 1px solid gray;
+  padding-right: 8px;
+}
+
+footer .footerMenu2 .footerMenu2List div:last-child {
+  border: none;
+}
+
+footer .footerMenu2 .footerMenu2Image {
+  margin-left: 84px;
+}
